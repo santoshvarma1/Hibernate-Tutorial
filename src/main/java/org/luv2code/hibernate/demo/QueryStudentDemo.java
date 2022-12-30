@@ -24,7 +24,7 @@ public class QueryStudentDemo {
                 System.out.println(student.toString());
             }
 
-            studentList = session.createQuery("from Student s where s.email=\"svs0395@gmail.com\"", Student.class).getResultList();
+            studentList = session.createQuery("from Student s where s.email=\"br@gmail.com\" OR s.email=\"asdew@gmail.com\" ", Student.class).getResultList();
 
             System.out.println("================================");
             System.out.println("last name of bhupathiarju");
