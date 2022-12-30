@@ -7,7 +7,7 @@ import org.luv2code.hibernate.Entity.Student;
 
 import java.util.List;
 
-public class QueryStudentDemo {
+public class ReadObjectsMySQL {
     public static void main( String[] args ){
 
         SessionFactory sFactory = new Configuration()
