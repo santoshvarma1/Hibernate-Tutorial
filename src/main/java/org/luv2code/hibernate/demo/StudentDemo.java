@@ -17,9 +17,9 @@ public class StudentDemo {
         Session session = sFactory.getCurrentSession();
         try{
             //use the session object to save java object
-            Student student = new Student("santosh", "saripella", "svs0395@gmail.com");
+            Student student = new Student("santosh", "asadee", "asdew@gmail.com");
             session.beginTransaction();
-            session.save(student);
+            session.persist(student);
             session.getTransaction().commit();
             System.out.println("done");
             student.toString();
